@@ -1,0 +1,408 @@
+[
+  {
+    "instance_id": "astropy__astropy-13033",
+    "repo": "astropy/astropy",
+    "difficulty": "15 min - 1 hour",
+    "created_at": "2022-03-31T23:28:27Z",
+    "problem_statement": "TimeSeries: misleading exception when required column check fails.\n<!-- This comments are hidden when you submit the issue,\r\nso you do not need to remove them! -->\r\n\r\n<!-- Please be sure to check out ..."
+  },
+  {
+    "instance_id": "django__django-14011",
+    "repo": "django/django",
+    "difficulty": "1-4 hours",
+    "created_at": "2021-02-15T06:15:21Z",
+    "problem_statement": "LiveServerTestCase's ThreadedWSGIServer doesn't close database connections after each thread\nDescription\n\t\nIn Django 2.2.17, I'm seeing the reappearance of #22414 after it was fixed in 1.11. #22414 is..."
+  },
+  {
+    "instance_id": "sympy__sympy-20438",
+    "repo": "sympy/sympy",
+    "difficulty": "15 min - 1 hour",
+    "created_at": "2020-11-17T08:24:33Z",
+    "problem_statement": "`is_subset` gives wrong results\n@sylee957 Current status on `master`,\r\n```python\r\n>>> a = FiniteSet(1, 2)\r\n>>> b = ProductSet(a, a)\r\n>>> c = FiniteSet((1, 1), (1, 2), (2, 1), (2, 2))\r\n>>> b.intersecti..."
+  },
+  {
+    "instance_id": "sphinx-doc__sphinx-7748",
+    "repo": "sphinx-doc/sphinx",
+    "difficulty": "15 min - 1 hour",
+    "created_at": "2020-05-30T06:41:07Z",
+    "problem_statement": "autodoc_docstring_signature with overloaded methods\nWhen using swig to wrap C++ classes for python, if they have overloaded methods, I believe the convention is to place the signatures for each of the..."
+  },
+  {
+    "instance_id": "django__django-16502",
+    "repo": "django/django",
+    "difficulty": "15 min - 1 hour",
+    "created_at": "2023-01-26T09:21:31Z",
+    "problem_statement": "After #26052 runserver returns response body for HTTP HEAD requests\nDescription\n\t\nFor compliance with RFC 2616, section 4.3, response bodies must not be returned for HEAD requests.\nIn #26052, the stri..."
+  },
+  {
+    "instance_id": "django__django-13344",
+    "repo": "django/django",
+    "difficulty": "1-4 hours",
+    "created_at": "2020-08-24T20:50:35Z",
+    "problem_statement": "Coroutine passed to the first middleware's process_response() instead of HttpResponse.\nDescription\n\t\nLike the title says, using ASGI (+ uvicorn in my case), the first middleware (according to the list..."
+  },
+  {
+    "instance_id": "psf__requests-6028",
+    "repo": "psf/requests",
+    "difficulty": "15 min - 1 hour",
+    "created_at": "2022-01-04T15:32:52Z",
+    "problem_statement": "Proxy authentication bug\n<!-- Summary. -->\r\n\r\nWhen using proxies in python 3.8.12, I get an error 407. Using any other version of python works fine. I am assuming it could be to do with this https://d..."
+  },
+  {
+    "instance_id": "sympy__sympy-17318",
+    "repo": "sympy/sympy",
+    "difficulty": "15 min - 1 hour",
+    "created_at": "2019-08-01T11:55:36Z",
+    "problem_statement": "sqrtdenest raises IndexError\n```\r\n>>> sqrtdenest((3 - sqrt(2)*sqrt(4 + 3*I) + 3*I)/2)\r\nTraceback (most recent call last):\r\n  File \"<stdin>\", line 1, in <module>\r\n  File \"sympy\\simplify\\sqrtdenest.py\",..."
+  },
+  {
+    "instance_id": "django__django-13794",
+    "repo": "django/django",
+    "difficulty": "<15 min fix",
+    "created_at": "2020-12-19T20:09:34Z",
+    "problem_statement": "add filter is unable to concatenate strings with lazy string\nDescription\n\t\nIf you try to concatenate a string with a lazy string with the add template filter, the result is always the empty string bec..."
+  },
+  {
+    "instance_id": "pytest-dev__pytest-10356",
+    "repo": "pytest-dev/pytest",
+    "difficulty": "1-4 hours",
+    "created_at": "2022-10-08T06:20:42Z",
+    "problem_statement": "Consider MRO when obtaining marks for classes\nWhen using pytest markers in two baseclasses `Foo` and `Bar`, inheriting from both of those baseclasses will lose the markers of one of those classes. Thi..."
+  },
+  {
+    "instance_id": "sphinx-doc__sphinx-10614",
+    "repo": "sphinx-doc/sphinx",
+    "difficulty": "15 min - 1 hour",
+    "created_at": "2022-06-29T14:29:04Z",
+    "problem_statement": "inheritance-diagram 404 links with SVG\n### Describe the bug\n\nI have created some SVG inheritance diagrams using the `sphinx.ext.inheritance_diagram` plugin.\r\nIf the inheritance diagram is created in a..."
+  },
+  {
+    "instance_id": "django__django-16263",
+    "repo": "django/django",
+    "difficulty": "1-4 hours",
+    "created_at": "2022-11-06T07:38:18Z",
+    "problem_statement": "Strip unused annotations from count queries\nDescription\n\t\nThe query below produces a SQL statement that includes the Count('chapters'), despite not not being used in any filter operations.\nBook.object..."
+  },
+  {
+    "instance_id": "pylint-dev__pylint-4661",
+    "repo": "pylint-dev/pylint",
+    "difficulty": "15 min - 1 hour",
+    "created_at": "2021-07-03T00:57:06Z",
+    "problem_statement": "Make pylint XDG Base Directory Specification compliant\nI have this really annoying `.pylint.d` directory in my home folder. From what I can tell (I don't do C or C++), this directory is storing data. ..."
+  },
+  {
+    "instance_id": "django__django-10999",
+    "repo": "django/django",
+    "difficulty": "<15 min fix",
+    "created_at": "2019-02-16T07:44:50Z",
+    "problem_statement": "Fix parse_duration() for some negative durations\nDescription\n\t\nThe \u200bhttps://docs.djangoproject.com/en/2.1/_modules/django/utils/dateparse/ defines:\nstandard_duration_re = re.compile(\n\tr'^'\n\tr'(?:(?P<d..."
+  },
+  {
+    "instance_id": "django__django-16256",
+    "repo": "django/django",
+    "difficulty": "15 min - 1 hour",
+    "created_at": "2022-11-04T14:26:44Z",
+    "problem_statement": "acreate(), aget_or_create(), and aupdate_or_create() doesn't work as intended on related managers.\nDescription\n\t\nAsync-compatible interface was added to QuerySet in 58b27e0dbb3d31ca1438790870b2b51ecdb..."
+  },
+  {
+    "instance_id": "astropy__astropy-13398",
+    "repo": "astropy/astropy",
+    "difficulty": "1-4 hours",
+    "created_at": "2022-06-24T15:22:11Z",
+    "problem_statement": "A direct approach to ITRS to Observed transformations that stays within the ITRS.\n<!-- This comments are hidden when you submit the issue,\r\nso you do not need to remove them! -->\r\n\r\n<!-- Please be sur..."
+  },
+  {
+    "instance_id": "sympy__sympy-17630",
+    "repo": "sympy/sympy",
+    "difficulty": "1-4 hours",
+    "created_at": "2019-09-18T22:56:31Z",
+    "problem_statement": "Exception when multiplying BlockMatrix containing ZeroMatrix blocks\nWhen a block matrix with zero blocks is defined\r\n\r\n```\r\n>>> from sympy import *\r\n>>> a = MatrixSymbol(\"a\", 2, 2)\r\n>>> z = ZeroMatrix..."
+  },
+  {
+    "instance_id": "astropy__astropy-14598",
+    "repo": "astropy/astropy",
+    "difficulty": "15 min - 1 hour",
+    "created_at": "2023-03-29T10:34:49Z",
+    "problem_statement": "Inconsistency in double single-quote ('') management in FITS Card\n### Description\r\n\r\nThe management of single-quotes in FITS cards seem correct, except *sometimes* when dealing with null strings, i.e...."
+  },
+  {
+    "instance_id": "astropy__astropy-8707",
+    "repo": "astropy/astropy",
+    "difficulty": "15 min - 1 hour",
+    "created_at": "2019-05-15T13:21:19Z",
+    "problem_statement": "Header.fromstring does not accept Python 3 bytes\nAccording to [the docs](http://docs.astropy.org/en/stable/_modules/astropy/io/fits/header.html#Header.fromstring), the method `Header.fromstring` \"...c..."
+  },
+  {
+    "instance_id": "django__django-10554",
+    "repo": "django/django",
+    "difficulty": "1-4 hours",
+    "created_at": "2018-10-24T14:24:45Z",
+    "problem_statement": "Union queryset with ordering breaks on ordering with derived querysets\nDescription\n\t \n\t\t(last modified by Sergei Maertens)\n\t \nMay be related to #29692\nSimple reproduction (the exact models are not rel..."
+  },
+  {
+    "instance_id": "django__django-11087",
+    "repo": "django/django",
+    "difficulty": "15 min - 1 hour",
+    "created_at": "2019-03-16T22:59:57Z",
+    "problem_statement": "Optimize .delete() to use only required fields.\nDescription\n\t\nHi!\nWe're in the process of upgrading our Django 1.11 installation from Python 2.7 to Python 3.6, however are hitting an unexpected Unicod..."
+  },
+  {
+    "instance_id": "sympy__sympy-21596",
+    "repo": "sympy/sympy",
+    "difficulty": "15 min - 1 hour",
+    "created_at": "2021-06-10T15:35:08Z",
+    "problem_statement": "bug in is_subset(Reals)\nSolving issue #19513 has given rise to another bug.\r\nNow:\r\n```\r\nIn [8]: S1 = imageset(Lambda(n, n + (n - 1)*(n + 1)*I), S.Integers)\r\n\r\nIn [9]: S1\r\nOut[9]: {n + \u2148\u22c5(n - 1)\u22c5(n + 1..."
+  },
+  {
+    "instance_id": "django__django-12406",
+    "repo": "django/django",
+    "difficulty": "15 min - 1 hour",
+    "created_at": "2020-02-02T16:34:05Z",
+    "problem_statement": "ModelForm RadioSelect widget for foreign keys should not present a blank option if blank=False on the model\nDescription\n\t\nUnlike the select widget, where a blank option is idiomatic even for required ..."
+  },
+  {
+    "instance_id": "astropy__astropy-7606",
+    "repo": "astropy/astropy",
+    "difficulty": "15 min - 1 hour",
+    "created_at": "2018-06-29T16:27:46Z",
+    "problem_statement": "Unit equality comparison with None raises TypeError for UnrecognizedUnit\n```\r\nIn [12]: x = u.Unit('asdf', parse_strict='silent')\r\n\r\nIn [13]: x == None  # Should be False\r\n-----------------------------..."
+  },
+  {
+    "instance_id": "django__django-13513",
+    "repo": "django/django",
+    "difficulty": "15 min - 1 hour",
+    "created_at": "2020-10-08T14:07:33Z",
+    "problem_statement": "debug error view doesn't respect exc.__suppress_context__ (PEP 415)\nDescription\n\t\nConsider the following view that raises an exception:\nclass TestView(View):\n\tdef get(self, request, *args, **kwargs):\n..."
+  },
+  {
+    "instance_id": "sphinx-doc__sphinx-7590",
+    "repo": "sphinx-doc/sphinx",
+    "difficulty": ">4 hours",
+    "created_at": "2020-05-01T18:29:11Z",
+    "problem_statement": "C++ User Defined Literals not supported\nThe code as below\r\n\r\n```cpp\r\nnamespace units::si {\r\n\r\ninline constexpr auto planck_constant = 6.62607015e-34q_J * 1q_s;\r\n\r\n}\r\n```\r\n\r\ncauses the following error:..."
+  },
+  {
+    "instance_id": "django__django-16631",
+    "repo": "django/django",
+    "difficulty": "1-4 hours",
+    "created_at": "2023-03-06T15:19:52Z",
+    "problem_statement": "SECRET_KEY_FALLBACKS is not used for sessions\nDescription\n\t\nI recently rotated my secret key, made the old one available in SECRET_KEY_FALLBACKS and I'm pretty sure everyone on our site is logged out ..."
+  },
+  {
+    "instance_id": "pylint-dev__pylint-4551",
+    "repo": "pylint-dev/pylint",
+    "difficulty": "1-4 hours",
+    "created_at": "2021-06-07T15:14:31Z",
+    "problem_statement": "Use Python type hints for UML generation\nIt seems that pyreverse does not read python type hints (as defined by [PEP 484](https://www.python.org/dev/peps/pep-0484/)), and this does not help when you u..."
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-24870",
+    "repo": "matplotlib/matplotlib",
+    "difficulty": "15 min - 1 hour",
+    "created_at": "2023-01-02T20:37:49Z",
+    "problem_statement": "[ENH]: Auto-detect bool arrays passed to contour()?\n### Problem\n\nI find myself fairly regularly calling\r\n```python\r\nplt.contour(boolean_2d_array, levels=[.5], ...)\r\n```\r\nto draw the boundary line betw..."
+  },
+  {
+    "instance_id": "pylint-dev__pylint-4604",
+    "repo": "pylint-dev/pylint",
+    "difficulty": "15 min - 1 hour",
+    "created_at": "2021-06-22T10:44:14Z",
+    "problem_statement": "unused-import false positive for a module used in a type comment\n### Steps to reproduce\r\n\r\n```python\r\n\"\"\"Docstring.\"\"\"\r\n\r\nimport abc\r\nfrom abc import ABC\r\n\r\nX = ...  # type: abc.ABC\r\nY = ...  # type: ..."
+  },
+  {
+    "instance_id": "sympy__sympy-18199",
+    "repo": "sympy/sympy",
+    "difficulty": "1-4 hours",
+    "created_at": "2020-01-01T19:08:59Z",
+    "problem_statement": "nthroot_mod function misses one root of x = 0 mod p.\nWhen in the equation x**n = a mod p , when a % p == 0. Then x = 0 mod p is also a root of this equation. But right now `nthroot_mod` does not check..."
+  },
+  {
+    "instance_id": "sphinx-doc__sphinx-7985",
+    "repo": "sphinx-doc/sphinx",
+    "difficulty": "15 min - 1 hour",
+    "created_at": "2020-07-19T10:09:07Z",
+    "problem_statement": "linkcheck could also check local (internal) links\nSubject: linkcheck currently doesn't check local (internal) links, but this would be useful.\r\n\r\n<!--\r\n  Important: This is a list of issues for Sphinx..."
+  },
+  {
+    "instance_id": "django__django-13195",
+    "repo": "django/django",
+    "difficulty": "15 min - 1 hour",
+    "created_at": "2020-07-15T11:00:07Z",
+    "problem_statement": "HttpResponse.delete_cookie() should preserve cookie's samesite.\nDescription\n\t\nWe noticed we were getting this warning message from Firefox:\n'Cookie \u201cmessages\u201d will be soon rejected because it has the ..."
+  },
+  {
+    "instance_id": "django__django-13212",
+    "repo": "django/django",
+    "difficulty": "1-4 hours",
+    "created_at": "2020-07-21T02:53:58Z",
+    "problem_statement": "Make validators include the provided value in ValidationError\nDescription\n\t\nIt is sometimes desirable to include the provide value in a custom error message. For example:\n\u201cblah\u201d is not a valid email.\n..."
+  },
+  {
+    "instance_id": "django__django-15629",
+    "repo": "django/django",
+    "difficulty": "1-4 hours",
+    "created_at": "2022-04-23T21:58:24Z",
+    "problem_statement": "Errors with db_collation \u2013 no propagation to foreignkeys\nDescription\n\t \n\t\t(last modified by typonaut)\n\t \nUsing db_collation with a pk that also has referenced fks in other models causes foreign key co..."
+  },
+  {
+    "instance_id": "django__django-11477",
+    "repo": "django/django",
+    "difficulty": "15 min - 1 hour",
+    "created_at": "2019-06-14T17:40:45Z",
+    "problem_statement": "translate_url() creates an incorrect URL when optional named groups are missing in the URL pattern\nDescription\n\t\nThere is a problem when translating urls with absent 'optional' arguments\n(it's seen in..."
+  },
+  {
+    "instance_id": "sphinx-doc__sphinx-9229",
+    "repo": "sphinx-doc/sphinx",
+    "difficulty": "1-4 hours",
+    "created_at": "2021-05-15T07:21:49Z",
+    "problem_statement": "Inconsistent behaviour with type alias documentation (not overwriting all the default messages, just some)\n**Describe the bug**\r\nHello, I have 3 muiltiline docstrings for type aliases (using the next-..."
+  },
+  {
+    "instance_id": "pydata__xarray-6992",
+    "repo": "pydata/xarray",
+    "difficulty": ">4 hours",
+    "created_at": "2022-09-05T15:07:43Z",
+    "problem_statement": "index refactor: more `_coord_names` than `_variables` on Dataset\n### What happened?\n\n`xr.core.dataset.DataVariables` assumes that everything that is in `ds._dataset._variables` and not in `self._datas..."
+  },
+  {
+    "instance_id": "django__django-14792",
+    "repo": "django/django",
+    "difficulty": "<15 min fix",
+    "created_at": "2021-08-24T09:25:15Z",
+    "problem_statement": "Reverse time zone conversion in Trunc()/Extract() database functions.\nDescription\n\t\nWhen using a time zone of \"Etc/GMT-10\" (or similar) for a Trunc class tzinfo, it appears there's a different behavio..."
+  },
+  {
+    "instance_id": "django__django-11400",
+    "repo": "django/django",
+    "difficulty": "1-4 hours",
+    "created_at": "2019-05-22T11:30:39Z",
+    "problem_statement": "Ordering problem in admin.RelatedFieldListFilter and admin.RelatedOnlyFieldListFilter\nDescription\n\t\nRelatedFieldListFilter doesn't fall back to the ordering defined in Model._meta.ordering. \nOrdering ..."
+  },
+  {
+    "instance_id": "astropy__astropy-8872",
+    "repo": "astropy/astropy",
+    "difficulty": "15 min - 1 hour",
+    "created_at": "2019-06-19T20:34:56Z",
+    "problem_statement": "float16 quantities get upgraded to float64 automatically\nWhen trying to create a `Quantity` from a `np.float16` (not something I actually intended to do, I was experimenting while investigating other ..."
+  },
+  {
+    "instance_id": "sphinx-doc__sphinx-9461",
+    "repo": "sphinx-doc/sphinx",
+    "difficulty": "1-4 hours",
+    "created_at": "2021-07-17T06:31:58Z",
+    "problem_statement": "Methods decorated with @classmethod and @property do not get documented.\n**EDIT:** The problem seems to be that `type(BaseClass.baseclass_property)` returns `property`, thus sphinx can just lookup `Ba..."
+  },
+  {
+    "instance_id": "sympy__sympy-21930",
+    "repo": "sympy/sympy",
+    "difficulty": "15 min - 1 hour",
+    "created_at": "2021-08-22T20:29:08Z",
+    "problem_statement": "Issues with Latex printing output in second quantization module\nThere are Latex rendering problems within the \"secondquant\" module, as it does not correctly interpret double superscripts containing th..."
+  },
+  {
+    "instance_id": "django__django-14155",
+    "repo": "django/django",
+    "difficulty": "15 min - 1 hour",
+    "created_at": "2021-03-19T15:44:25Z",
+    "problem_statement": "ResolverMatch.__repr__() doesn't handle functools.partial() nicely.\nDescription\n\t \n\t\t(last modified by Nick Pope)\n\t \nWhen a partial function is passed as the view, the __repr__ shows the func argument..."
+  },
+  {
+    "instance_id": "astropy__astropy-13977",
+    "repo": "astropy/astropy",
+    "difficulty": "15 min - 1 hour",
+    "created_at": "2022-11-01T22:24:58Z",
+    "problem_statement": "Should `Quantity.__array_ufunc__()` return `NotImplemented` instead of raising `ValueError` if the inputs are incompatible?\n### Description\r\nI'm trying to implement a duck type of `astropy.units.Quant..."
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-25479",
+    "repo": "matplotlib/matplotlib",
+    "difficulty": "<15 min fix",
+    "created_at": "2023-03-16T17:59:41Z",
+    "problem_statement": "Confusing (broken?) colormap name handling\nConsider the following example in which one creates and registers a new colormap and attempt to use it with the `pyplot` interface.\n\n``` python\nfrom matplotl..."
+  },
+  {
+    "instance_id": "django__django-16667",
+    "repo": "django/django",
+    "difficulty": "15 min - 1 hour",
+    "created_at": "2023-03-20T21:32:53Z",
+    "problem_statement": "SelectDateWidget can crash with OverflowError.\nDescription\n\t\nGiven a relatively common view like this:\nfrom django import forms\nfrom django.forms import SelectDateWidget\nfrom django.http import HttpRe..."
+  },
+  {
+    "instance_id": "sphinx-doc__sphinx-11510",
+    "repo": "sphinx-doc/sphinx",
+    "difficulty": "1-4 hours",
+    "created_at": "2023-07-24T22:46:12Z",
+    "problem_statement": "source-read event does not modify include'd files source\n### Describe the bug\n\nIn [Yocto documentation](https://git.yoctoproject.org/yocto-docs), we use a custom extension to do some search and replac..."
+  },
+  {
+    "instance_id": "django__django-14170",
+    "repo": "django/django",
+    "difficulty": "15 min - 1 hour",
+    "created_at": "2021-03-23T08:53:41Z",
+    "problem_statement": "Query optimization in YearLookup breaks filtering by \"__iso_year\"\nDescription\n\t \n\t\t(last modified by Florian Demmer)\n\t \nThe optimization to use BETWEEN instead of the EXTRACT operation in \u200bYearLookup ..."
+  },
+  {
+    "instance_id": "django__django-14034",
+    "repo": "django/django",
+    "difficulty": "15 min - 1 hour",
+    "created_at": "2021-02-22T19:32:50Z",
+    "problem_statement": "MultiValueField ignores a required value of a sub field\nDescription\n\t \n\t\t(last modified by Takayuki Hirai)\n\t \nA field and a form definition:\nfrom django.forms import (\n\tForm,\n\tCharField,\n\tMultiValueFi..."
+  },
+  {
+    "instance_id": "sympy__sympy-13852",
+    "repo": "sympy/sympy",
+    "difficulty": "1-4 hours",
+    "created_at": "2018-01-06T23:54:51Z",
+    "problem_statement": "Add evaluation for polylog\n```\nIn [1]: polylog(2, Rational(1,2))\nOut[1]: polylog(2, 1/2)\n\nIn [2]: polylog(2, Rational(1,2)).expand(func=True)\nOut[2]: polylog(2, 1/2)\n\nThe answer should be -log(2)**2/2..."
+  },
+  {
+    "instance_id": "sympy__sympy-20428",
+    "repo": "sympy/sympy",
+    "difficulty": "15 min - 1 hour",
+    "created_at": "2020-11-14T05:56:31Z",
+    "problem_statement": "Result from clear_denoms() prints like zero poly but behaves wierdly (due to unstripped DMP)\nThe was the immediate cause of the ZeroDivisionError in #17990.\r\n\r\nCalling `clear_denoms()` on a complicate..."
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-26466",
+    "repo": "matplotlib/matplotlib",
+    "difficulty": "15 min - 1 hour",
+    "created_at": "2023-08-07T19:30:22Z",
+    "problem_statement": "Updating an array passed as the xy parameter to annotate updates the anottation\n### Bug report\r\n\r\n**Bug summary**\r\nWhen an array is used as the _xy_ kwarg for an annotation that includes arrows, chang..."
+  },
+  {
+    "instance_id": "pydata__xarray-7229",
+    "repo": "pydata/xarray",
+    "difficulty": "15 min - 1 hour",
+    "created_at": "2022-10-26T21:45:01Z",
+    "problem_statement": "`xr.where(..., keep_attrs=True)` overwrites coordinate attributes\n### What happened?\n\n#6461 had some unintended consequences for `xr.where(..., keep_attrs=True)`, where coordinate attributes are getti..."
+  },
+  {
+    "instance_id": "sphinx-doc__sphinx-7462",
+    "repo": "sphinx-doc/sphinx",
+    "difficulty": "<15 min fix",
+    "created_at": "2020-04-12T04:10:05Z",
+    "problem_statement": "`IndexError: pop from empty list` for empty tuple type annotation\n**Describe the bug**\r\nFollowing notation for empty tuple from [this mypy issue](https://github.com/python/mypy/issues/4211) like\r\n```p..."
+  },
+  {
+    "instance_id": "sympy__sympy-16597",
+    "repo": "sympy/sympy",
+    "difficulty": "1-4 hours",
+    "created_at": "2019-04-08T12:49:10Z",
+    "problem_statement": "a.is_even does not imply a.is_finite\nI'm not sure what the right answer is here:\r\n```julia\r\nIn [1]: m = Symbol('m', even=True)                                                                          ..."
+  },
+  {
+    "instance_id": "django__django-15252",
+    "repo": "django/django",
+    "difficulty": "15 min - 1 hour",
+    "created_at": "2021-12-28T15:51:06Z",
+    "problem_statement": "MigrationRecorder does not obey db_router allow_migrate rules\nDescription\n\t\nHi,\nWe have a multi-db setup. We have one connection that is for the django project, and several connections that talk to ot..."
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-23476",
+    "repo": "matplotlib/matplotlib",
+    "difficulty": "<15 min fix",
+    "created_at": "2022-07-22T18:58:22Z",
+    "problem_statement": "[Bug]: DPI of a figure is doubled after unpickling on M1 Mac\n### Bug summary\r\n\r\nWhen a figure is unpickled, it's dpi is doubled. This behaviour happens every time and if done in a loop it can cause an..."
+  }
+]
